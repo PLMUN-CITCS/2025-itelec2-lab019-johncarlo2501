@@ -1,7 +1,8 @@
 def get_student_score():
-    score = float(input("Enter your score: "))
-        if score <= 100:
-            return score 
+    
+            score = float(input("Enter your score: "))
+            if score <= 100:
+                return score 
 
 def calculate_grade(score): 
     if score >= 90:
