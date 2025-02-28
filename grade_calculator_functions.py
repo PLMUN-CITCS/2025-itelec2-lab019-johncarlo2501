@@ -27,6 +27,4 @@ if __name__ == "__main__":
     student_score = get_student_score()  
     student_grade = calculate_grade(student_score)  
 
-    print(f"The student's grade is: {student_grade}")  
-
     print(f"The student's grade is: {student_grade}")
