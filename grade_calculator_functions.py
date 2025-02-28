@@ -12,7 +12,7 @@ def get_student_score():
 
 def calculate_grade(score):
     
-     if score >= 90:
+    if score >= 90:
         return 'A'
     elif score >= 80:
         return 'B'
